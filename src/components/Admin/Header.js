@@ -8,7 +8,7 @@ const Header = () => {
 
         
         {/*Header admin*/}
-          <Link to="/auth/login">Connexion</Link>
+          <Link to="/auth/login" className='link'>Connexion</Link>
             
         </div>
     );
