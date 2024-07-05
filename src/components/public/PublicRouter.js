@@ -16,7 +16,7 @@ const PublicRouter = () => {
     return (
         <div>
 
-            public router
+            
             <Routes>
 
                 
