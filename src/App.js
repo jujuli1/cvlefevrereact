@@ -25,7 +25,7 @@ function App() {
       <BrowserRouter>
       <Header/>
         <Routes>
-        <Route path="/*" element={<PublicRouter />} />
+        <Route path="/*" element={<AuthRouter />} />
         <Route path='/admin/*' element={
           <AuthGuard>
 
