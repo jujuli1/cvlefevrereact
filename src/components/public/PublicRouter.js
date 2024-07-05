@@ -19,7 +19,7 @@ const PublicRouter = () => {
             public router
             <Routes>
 
-                <Header/>
+                
                 <Route index element={<Home />}/>
 
                 <Route path="/home" element={<Home/>}/>
