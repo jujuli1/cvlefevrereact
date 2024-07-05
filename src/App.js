@@ -21,11 +21,12 @@ function App() {
   return (
     <div className={`qui-container ${isVisible ? 'fade-in' : ''}`}>
       
+      fichier app
       
       <BrowserRouter>
       <Header/>
         <Routes>
-        <Route path="/*" element={<AuthRouter />} />
+        <Route path="/*" element={<PublicRouter />} />
         <Route path='/admin/*' element={
           <AuthGuard>
 
