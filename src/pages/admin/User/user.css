@@ -1,0 +1,36 @@
+
+.hidden {
+    opacity: 0;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 2;
+    }
+  }
+  
+  .fade-in-qui {
+    animation: fadeIn 1s ease-in-out;
+    animation-duration: 3s;
+  }
+
+  .fade-in-qui2 {
+    animation: fadeIn 1s ease-in-out;
+    animation-duration: 6s;
+    width: 50%;
+  }
+
+  .fade-in-qui3 {
+    animation: fadeIn 1s ease-in-out;
+    animation-duration: 7s;
+    width: 50%;
+  }
+
+  .qui-container p {
+    margin-bottom: 3em; /* Ajouter de l'espace entre les paragraphes */
+    line-height: 2.5; /* Ajuster l'espacement entre les lignes */
+}
+
