@@ -9,6 +9,7 @@ import AuthRouter  from '../../pages/Auth/AuthRouter';
 import Layout  from '../../pages/admin/Layout';
 
 import Error from '../../utils/Error';
+import Header from './Header';
 
 
 const PublicRouter = () => {
@@ -18,7 +19,7 @@ const PublicRouter = () => {
             public router
             <Routes>
 
-                
+                <Header/>
                 <Route index element={<Home />}/>
 
                 <Route path="/home" element={<Home/>}/>
