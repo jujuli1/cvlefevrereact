@@ -14,6 +14,8 @@ import Error from '../../utils/Error';
 const PublicRouter = () => {
     return (
         <div>
+
+            public router
             <Routes>
 
                 
