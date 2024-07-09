@@ -27,7 +27,7 @@ const Login = () => {
     const onSubmit = (e) =>{
         e.preventDefault()
         console.log(credential)
-        axios.post('http://cvreactapi.tech/', credential)
+        axios.post('https://cvapi.lefevre.com/', credential)
         .then(res => {
             
             console.log(res)
