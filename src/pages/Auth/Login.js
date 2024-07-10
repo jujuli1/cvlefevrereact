@@ -27,7 +27,7 @@ const Login = () => {
     const onSubmit = (e) =>{
         e.preventDefault()
         console.log(credential)
-        axios.post('https://cvlefevreapi-cccbd8eda87f.herokuapp.com/', credential)
+        axios.post('api/', credential)
         .then(res => {
             
             console.log(res)
