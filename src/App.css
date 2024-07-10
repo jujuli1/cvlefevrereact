@@ -49,7 +49,7 @@ input {
 }
 
 .header {
-  background-color: white;
+  background-color: rgb(131, 9, 9);
   padding-bottom: 100px;
   border-radius: 35px;
   display: flex;
