@@ -27,7 +27,7 @@ const Login = () => {
     const onSubmit = (e) =>{
         e.preventDefault()
         console.log(credential)
-        axios.post('https://3fed-2a01-e0a-4cc-3700-b6f8-d67c-7f62-2655.ngrok-free.app/', credential)
+        axios.post('https://20f0-88-123-48-220.ngrok-free.app/', credential)
         .then(res => {
             
             console.log(res)
